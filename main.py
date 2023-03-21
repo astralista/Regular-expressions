@@ -49,6 +49,6 @@ for key in d:
 result = sorted(merged_data, key=lambda x: x[0])
 
 # TODO 2: сохраните получившиеся данные в другой файл
-with open("AAAAAA.csv", "w") as f:
+with open("phonebook.csv", "w") as f:
   datawriter = csv.writer(f)
   datawriter.writerows(result)
